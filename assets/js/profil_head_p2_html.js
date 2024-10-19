@@ -1,4 +1,4 @@
-  const PROFIL_HEAD_P2 = `.gridColumn9to2_min_m-01 { grid-column: 9 / 2; }
+const PROFIL_HEAD_P2 = `.gridColumn9to2_min_m-01 { grid-column: 9 / 2; }
   .gridColumn9to3_min_m-01 { grid-column: 9 / 3; }
   .gridColumn9to4_min_m-01 { grid-column: 9 / 4; }
   .gridColumn9to5_min_m-01 { grid-column: 9 / 5; }
@@ -11780,5 +11780,5 @@ input[type='datetime-local']::-webkit-calendar-picker-indicator {
 .stepsCardsGrid-01 {
   grid-row-gap: 40px;
 }
-</style></head>
+</style>
 `
