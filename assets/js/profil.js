@@ -13,7 +13,7 @@ class profilUser {
         this.defineFieldsSkills(skills.user.transactions)
         this.defineFieldsProgression(progression.level[0].amount, progression.xp.aggregate.sum.amount)
         this.defineWorkingProject(workingProject.group[0].path)
-        document.head.innerHTML = PROFIL_HEAD
+        document.head.innerHTML = PROFIL_HEAD_P1 + PROFIL_HEAD_P2
         document.body.innerHTML = PROFIL_BODY
         this.updateSections()
         this.listenDisconnect()
