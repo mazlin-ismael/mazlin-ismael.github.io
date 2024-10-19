@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link crossorigin="anonymous" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIACQAAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAFdJREFUeJxjYBgS4MNuhv+UaD5LtAEgheiKkcWwyePVjCR+Fq86PJrroHJ1ONXjcxY+/8P1ETAAxfkkuQKX83G6Gl0Ql/OJjglCUUoQ4PM/0QaQrZmuAAC5uJIBPxyiUwAAAABJRU5ErkJggg==" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Zone 01</title>
+  </head>
+<body class="dark-theme" cz-shortcut-listen="true">
+<div class="trame"></div>
+<div class="page-container">
+  <div id="error"></div>
+  <div id="welcome" class="title welcome">Bienvenue à <span style="color:rgb(16,110,250);">Zone01</span> !</div>
+
+  <div class="blocks-container">
+    <div class="left">
+      <div class="text">
+		<h2>Démarre la première étape de <br>l’inscription – Les jeux cognitifs.</h2>
+		<br>
+        <span id="zone-01-process">C'est un jeu en deux parties qui défie ta mémoire et ta logique.</span>
+        <br><br>
+        1)
+        <span id="instruction-1">Prépare-toi pour le test en ligne d'1h30.</span>
+        <br>
+        2) <span id="instruction-2">Crée un compte et connecte-toi à la plateforme.</span>
+        <br>
+        3) <span id="instruction-3">Complète le test - rappelle-toi, tu ne peux pas faire pause !</span>
+        <br>
+		4) <span id="instruction-4">Tu obtiendras tes résultats directement depuis la plateforme.</span>
+        <br>
+		<br>
+
+		<h2>Bonne chance !</h2>
+		<br>
+		<span>En cas de succès aux jeux cognitifs, la plateforme t'informera des prochaines étapes.</span>
+		<br>
+		<span>Sinon, tu as 1 essai supplémentaire pour faire de ton mieux !</span>
+		<br>
+		<span>C'est tout ! Si tu as déjà créé un compte, connecte-toi pour compléter ta candidature.</span>
+	
+		<h2>Veux-tu en savoir plus sur Zone01 Rouen ?</h2>
+		<br>
+      </div>
+      <div class="contact">
+        <a id="contact-link" href="mailto:contact@zone01normandie.org">
+          <span class="arrow">→</span>
+          <span id="contact">Nous contacter.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="right" style="justify-content: normal!important">
+      <div id="cas-sign-in-wrapper" class="cas-sign-in-wrapper">
+        <button class="sign-in-button hoverWhite" style="opacity: 1; cursor: pointer;">se connecter</button>
+      </div>
+      <div id="authenticate" class="authenticate" style="display: block;">
+          <div class="login">
+            <ul>
+              <li class="login-register">
+                <label id="email-label" for="email-field">Email ou Nom d'utilisateur</label>
+                <input type="text" id="email-field" name="email" required="">
+              </li>
+              <li id="firstname" class="join-us">
+                <label for="firstname-field">Prénom</label>
+                <input type="text" pattern="[\x20-\x7E]+$" title="seuls les caractères ascii" id="firstname-field" name="firstname">
+              </li>
+              <li id="lastname" class="join-us">
+                <label for="lastname-field">Nom de famille</label>
+                <input type="text" pattern="[\x20-\x7E]+$" title="seuls les caractères ascii" id="lastname-field" name="lastname">
+              </li>
+              <li id="password-wrap" class="password">
+                <label for="password-field">Mot de passe</label>
+
+                <div class="password-container">
+                  <input type="password" id="password-field" name="password" minlength="6" autocomplete="new-password" title="Le mot de passe ne répond pas aux exigences" required="">
+                  <!-- oeil svg -->
+                  <span class="eye"><i id="eye" class="far fa-eye"></i></span>
+                </div>
+              </li>
+              <li class="join-us">
+                <label for="confirm-password-field">Confirmer le mot de passe</label>
+                <input type="password" id="confirm-password-field" name="confirmPassword" minlength="6" autocomplete="new-password">
+              </li>
+            </ul>
+          </div>
+          <p id="error-message" class="error-message"></p>
+          <div class="password-strength-indicator" id="password-strength-indicator">
+            <ul>
+              <p> Le mot de passe doit contenir :</p>
+              <li class="password-strength-info" id="passwd-length"> - Au moins 6 caractères</li>
+              <li class="password-strength-info" id="passwd-lower-letter"> - Une lettre minuscule</li>
+              <li class="password-strength-info" id="passwd-upper-letter"> - Une lettre majuscule</li>
+              <li class="password-strength-info" id="passwd-number"> - Un chiffre</li>
+              <li class="password-strength-info" id="passwd-special-character"> - Un caractère spécial</li>
+            </ul>
+          </div>
+          <a id="forgot-password" class="forgot-password">
+            Mot de passe oublié? <span>Clique ici !</span>
+          </a>
+          <div id="buttons">
+            <a class="switch-authentication">
+              <div id="switch-text">Nouveau ici ?</div>
+              <span id="switch-authentication">S'enregistrer !</span>
+            </a>
+            <button type="submit" class="authenticate-button" id="authenticate-button">Se connecter</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="assets/js/queries.js"></script>
+<script src="assets/js/profil_html.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/profil.js"></script>
+</body>
+</html>
