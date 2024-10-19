@@ -1,4 +1,4 @@
-`
+const PROFIL_HEAD_P1 = `
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -12619,3 +12619,4 @@
   .gridColumn8to12_min_m-01 { grid-column: 8 / 12; }
   .gridColumn9to0_min_m-01 { grid-column: 9 / 0; }
   .gridColumn9to1_min_m-01 { grid-column: 9 / 1; }
+  `
