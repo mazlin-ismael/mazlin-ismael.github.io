@@ -5,4 +5,4 @@
 [graphql](https://mazlin-ismael.github.io)
 
 - You have to be connected to use the queries
-[graphiql](https://mazlin-ismael.github.io)
+[graphiql](https://mazlin-ismael.github.io/graphiql)
